@@ -10,7 +10,7 @@ export default function ChangeBoardIndex() {
       <ul className="space-y-3">
         {kunden.map((name) => (
           <li key={name}>
-            <Link href={\`/changeboard/\${name}\`} className="block bg-blue-100 hover:bg-blue-200 text-blue-800 p-3 rounded">
+            <Link href={`/changeboard/${name}`} className="block bg-blue-100 hover:bg-blue-200 text-blue-800 p-3 rounded">
               📋 ChangeBoard für {name.charAt(0).toUpperCase() + name.slice(1)}
             </Link>
           </li>
