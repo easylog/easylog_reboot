@@ -1,1 +1,0 @@
-export default function Staff() { return <h1>👷 Mitarbeiter Dashboard (Journal + ChangeBoard folgen)</h1>; }

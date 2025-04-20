@@ -1,1 +1,0 @@
-export default function Admin() { return <h1>📊 Admin Dashboard (Rechnungen später)</h1>; }
